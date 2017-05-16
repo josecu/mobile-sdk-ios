@@ -13,9 +13,8 @@
  limitations under the License.
  */
 
-#if __has_include("<GoogleMobileAds/GoogleMobileAds.h>")
+#if __has_include(<GoogleMobileAds/GoogleMobileAds.h>)
 #import <GoogleMobileAds/GoogleMobileAds.h>
-#endif
 #import "ANBannerAdView.h"
 
 @interface ANGADCustomBannerAd : NSObject <GADCustomEventBanner, ANBannerAdViewDelegate>
@@ -24,3 +23,4 @@
 }
 
 @end
+#endif
