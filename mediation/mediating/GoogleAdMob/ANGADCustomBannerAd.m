@@ -13,6 +13,7 @@
  limitations under the License.
  */
 
+#if __has_include(<GoogleMobileAds/GoogleMobileAds.h>)
 #import "ANGADCustomBannerAd.h"
 #import "ANLocation.h"
 
@@ -105,3 +106,4 @@
 }
 
 @end
+#endif
