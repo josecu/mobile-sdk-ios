@@ -13,7 +13,9 @@
  limitations under the License.
  */
 
+#if __has_include("<GoogleMobileAds/GoogleMobileAds.h>")
 #import <GoogleMobileAds/GoogleMobileAds.h>
+#endif
 #import "ANInterstitialAd.h"
 
 @interface ANGADCustomInterstitialAd : NSObject <GADCustomEventInterstitial, ANInterstitialAdDelegate>
