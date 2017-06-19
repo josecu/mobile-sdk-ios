@@ -23,5 +23,6 @@ end
 
 You can find integration instructions and extensive documentation on the AppNexus wiki (https://wiki.appnexus.com/x/dhAtAw).  
 
-To file an issue with our team please visit the AppNexus Customer Support Portal (https://support.appnexus.com).
+To file an issue or request an enhancement please visit the AppNexus Customer Support Portal (https://support.appnexus.com).
 
+We do not accept GitHub issues.
